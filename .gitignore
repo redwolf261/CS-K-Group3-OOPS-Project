@@ -1,0 +1,55 @@
+# C++ compiled files
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+operations.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Encrypted test files
+*.enc
+decrypted_*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Documentation builds
+docs/_build/
+
+# Test files (keep test source but ignore test outputs)
+test_output/
+*.test

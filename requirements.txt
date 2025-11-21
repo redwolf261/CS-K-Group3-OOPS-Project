@@ -1,0 +1,8 @@
+# AES Encryption Tool - Requirements
+# Install with: pip install -r requirements.txt
+
+# For basic GUI (included in Python)
+# tkinter is built-in, no need to install
+
+# Optional: For modern, better-looking GUI
+customtkinter>=5.2.0
