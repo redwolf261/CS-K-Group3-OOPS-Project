@@ -53,7 +53,6 @@ int main() {
         }
     } else if (choice == 2) {
         string decrypted;
-
         if (filename.size() > 4 && filename.substr(filename.size() - 4) == ".enc") {
             decrypted = filename.substr(0, filename.size() - 4);
         } else {

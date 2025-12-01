@@ -73,13 +73,18 @@ void shiftRows(int state[4][4]){
     for(int i=0;i<3;i++)
     state[1][i]=state[1][i+1];
     state[1][3]=tmp;
-    int t0=state[2][0], t1=state[2][1];
+    int 
+    t0=state[2][0], 
+    t1=state[2][1];
     state[2][0]=state[2][2];
     state[2][1]=state[2][3];
     state[2][2]=t0;
     state[2][3]=t1;
     tmp=state[3][0];
-    state[3][0]=state[3][1]; state[3][1]=state[3][2]; state[3][2]=state[3][3]; state[3][3]=tmp;
+    state[3][0]=state[3][1]; 
+    state[3][1]=state[3][2]; 
+    state[3][2]=state[3][3]; 
+    state[3][3]=tmp;
 }
 
 void invShiftRows(int state[4][4]){
